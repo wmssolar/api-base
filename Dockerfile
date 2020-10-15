@@ -1,8 +1,6 @@
  
 FROM wmsolar/express-api:latest
 
- 
-
 RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
