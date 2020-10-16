@@ -2,7 +2,7 @@
  - name: Execute two commands on localhost
    hosts: localhost
    gather_facts: no
-   serial: 2
+   serial: 3
    tasks:
      - name: docker_compose
        shell: docker-compose -f docker-compose.yml up -d
